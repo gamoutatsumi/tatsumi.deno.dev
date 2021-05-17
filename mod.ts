@@ -1,5 +1,5 @@
-import { serve } from "https://deno.land/x/sift@0.1.6/mod.ts";
+import { serve } from "https://deno.land/x/sift@0.3.0/mod.ts";
 
 serve({
-  "/": () => new Response("200 OK", {headers: {"content-type": "text/plain; charset=utf-8"}}),
+  "/": () => new Response("あかしけ やなげ 緋色の鳥よ<br>くさはみ ねはみ けをのばせ", {headers: {"content-type": "text/plain; charset=utf-8"}}),
 });
